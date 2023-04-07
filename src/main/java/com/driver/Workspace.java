@@ -11,7 +11,9 @@ import java.util.Date;
 public class Workspace extends Gmail{
 
     private ArrayList<Meeting> calendar; // Stores all the meetings
+    public Workspace(){
 
+    }
     public Workspace(String emailId) {
         // The inboxCapacity is equal to the maximum value an integer can store.
         super(emailId,Integer.MAX_VALUE);

@@ -7,7 +7,9 @@ public class Email {
 
     private String emailId;
     private String password;
+    Email(){
 
+    }
     public Email(String emailId){
         this.emailId = emailId;
         this.password = "Accio@123";
